@@ -1,4 +1,4 @@
-﻿Log file open, 10/02/19 12:50:38
+﻿Log file open, 11/23/19 20:06:25
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,8 +9,8 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: FinalProject
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.257099
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.236817
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -120,13 +120,13 @@ LogInit: Build: ++UE4+Release-4.22-CL-7053642
 LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
 LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
 LogInit: Net CL: 5660361
-LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, GPU: NVIDIA GeForce RTX 2060
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz, GPU: NVIDIA GeForce GTX 1050 Ti
 LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
 LogInit: Compiled with Visual C++: 19.16.27025.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.22
-LogInit: Command Line:  /Game/ThirdPersonBP/Maps/LabStage -game -PIEVIACONSOLE -ResX=1280 -ResY=720 -Multiprocess -messaging -SessionName="Play in Standalone Game" -nosound -windowed
-LogInit: Base Directory: E:/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Command Line:  /Game/ThirdPersonBP/Maps/labscenein -game -PIEVIACONSOLE -ResX=1280 -ResY=720 -Multiprocess -messaging -SessionName="Play in Standalone Game" -nosound -windowed
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 23
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -156,490 +156,466 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.10.02-15.50.39:191][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2019.10.02-15.50.39:191][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.10.02-15.50.39:191][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/7003E-Saga/FinalProject/Saved/Config/Windows/Engine.ini]
-[2019.10.02-15.50.39:191][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.10.02-15.50.39:191][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
-[2019.10.02-15.50.39:191][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/7003E-Saga/FinalProject/Saved/Config/Windows/Engine.ini]
-[2019.10.02-15.50.39:191][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/7003E-Saga/FinalProject/Saved/Config/Windows/Engine.ini]
-[2019.10.02-15.50.39:191][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.10.02-15.50.39:191][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.10.02-15.50.39:191][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.10.02-15.50.39:191][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.10.02-15.50.39:191][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.10.02-15.50.39:191][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.10.02-15.50.39:191][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.10.02-15.50.39:191][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.10.02-15.50.39:192][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.10.02-15.50.39:192][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.10.02-15.50.39:192][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.10.02-15.50.39:192][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.10.02-15.50.39:192][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.10.02-15.50.39:192][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/7003E-Saga/FinalProject/Saved/Config/Windows/Engine.ini]
-[2019.10.02-15.50.39:192][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.10.02-15.50.39:192][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.10.02-15.50.39:192][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.10.02-15.50.39:192][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.10.02-15.50.39:192][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.10.02-15.50.39:192][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.10.02-15.50.39:192][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.10.02-15.50.39:192][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.10.02-15.50.39:192][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.10.02-15.50.39:192][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.10.02-15.50.39:192][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.10.02-15.50.39:192][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.10.02-15.50.39:192][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.10.02-15.50.39:192][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/7003E-Saga/FinalProject/Saved/Config/Windows/Engine.ini]
-[2019.10.02-15.50.39:192][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/7003E-Saga/FinalProject/Saved/Config/Windows/Engine.ini]
-[2019.10.02-15.50.39:194][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.10.02-15.50.39:194][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.10.02-15.50.39:195][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.10.02-15.50.39:195][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
-[2019.10.02-15.50.39:195][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.10.02-15.50.39:195][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.10.02-15.50.39:195][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.10.02-15.50.39:195][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.10.02-15.50.39:195][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.10.02-15.50.39:195][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.10.02-15.50.39:195][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.10.02-15.50.39:195][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.10.02-15.50.39:195][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.10.02-15.50.39:195][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.10.02-15.50.39:195][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.10.02-15.50.39:195][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.10.02-15.50.39:195][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.10.02-15.50.39:195][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
-[2019.10.02-15.50.39:195][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.10.02-15.50.39:195][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.10.02-15.50.39:195][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.02-15.50.39:195][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.10.02-15.50.39:198][  0]LogHAL: Display: Platform has ~ 16 GB [17130135552 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.10.02-15.50.39:198][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2019.10.02-15.50.39:198][  0]LogInit: Going up to parent DeviceProfile []
-[2019.10.02-15.50.39:198][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
-[2019.10.02-15.50.39:198][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.10.02-15.50.39:198][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.10.02-15.50.39:198][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
-[2019.10.02-15.50.39:198][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.10.02-15.50.39:198][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
-[2019.10.02-15.50.39:198][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.10.02-15.50.39:198][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.10.02-15.50.39:198][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.10.02-15.50.39:198][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.10.02-15.50.39:198][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.10.02-15.50.39:198][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.10.02-15.50.39:198][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.10.02-15.50.39:198][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.10.02-15.50.39:198][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.10.02-15.50.39:198][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.10.02-15.50.39:199][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/7003E-Saga/FinalProject/Saved/Config/Windows/Engine.ini]
-[2019.10.02-15.50.39:199][  0]LogInit: Computer: DESKTOP-K26HDI2
-[2019.10.02-15.50.39:199][  0]LogInit: User: Olymp
-[2019.10.02-15.50.39:199][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.10.02-15.50.39:199][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.10.02-15.50.39:200][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2019.10.02-15.50.39:200][  0]LogMemory: Platform Memory Stats for Windows
-[2019.10.02-15.50.39:200][  0]LogMemory: Process Physical Memory: 98.46 MB used, 98.46 MB peak
-[2019.10.02-15.50.39:200][  0]LogMemory: Process Virtual Memory: 92.91 MB used, 92.91 MB peak
-[2019.10.02-15.50.39:200][  0]LogMemory: Physical Memory: 6249.00 MB used,  10087.57 MB free, 16336.57 MB total
-[2019.10.02-15.50.39:200][  0]LogMemory: Virtual Memory: 4646.20 MB used,  134213080.00 MB free, 134217728.00 MB total
-[2019.10.02-15.50.39:213][  0]LogInit: Using OS detected language (pt-BR).
-[2019.10.02-15.50.39:213][  0]LogInit: Using OS detected locale (pt-BR).
-[2019.10.02-15.50.39:238][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pt/Editor.locres' could not be opened for reading!
-[2019.10.02-15.50.39:238][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pt/EditorTutorials.locres' could not be opened for reading!
-[2019.10.02-15.50.39:238][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pt/Keywords.locres' could not be opened for reading!
-[2019.10.02-15.50.39:238][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pt/Category.locres' could not be opened for reading!
-[2019.10.02-15.50.39:238][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pt/ToolTips.locres' could not be opened for reading!
-[2019.10.02-15.50.39:238][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pt/PropertyNames.locres' could not be opened for reading!
-[2019.10.02-15.50.39:238][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pt/Engine.locres' could not be opened for reading!
-[2019.10.02-15.50.39:238][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/pt/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
-[2019.10.02-15.50.39:238][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/pt/OnlineSubsystemIOS.locres' could not be opened for reading!
-[2019.10.02-15.50.39:238][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/pt/OnlineSubsystem.locres' could not be opened for reading!
-[2019.10.02-15.50.39:239][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/pt/OnlineSubsystemUtils.locres' could not be opened for reading!
-[2019.10.02-15.50.39:262][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.10.02-15.50.39:262][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.10.02-15.50.39:274][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.10.02-15.50.39:274][  0]LogD3D11RHI: D3D11 adapters:
-[2019.10.02-15.50.39:329][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
-[2019.10.02-15.50.39:329][  0]LogD3D11RHI:       5980/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.10.02-15.50.39:331][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.10.02-15.50.39:331][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.10.02-15.50.39:331][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.10.02-15.50.39:336][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.10.02-15.50.39:336][  0]LogD3D11RHI:     GPU DeviceId: 0x1f08 (for the marketing name, search the web for "GPU Device Id")
-[2019.10.02-15.50.39:336][  0]LogWindows: EnumDisplayDevices:
-[2019.10.02-15.50.39:336][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060' (P:1 D:1)
-[2019.10.02-15.50.39:336][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
-[2019.10.02-15.50.39:336][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
-[2019.10.02-15.50.39:337][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
-[2019.10.02-15.50.39:337][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.10.02-15.50.39:337][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
-[2019.10.02-15.50.39:337][  0]LogD3D11RHI:   Driver Version: 431.36 (internal:26.21.14.3136, unified:431.36)
-[2019.10.02-15.50.39:337][  0]LogD3D11RHI:      Driver Date: 7-3-2019
-[2019.10.02-15.50.39:337][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
-[2019.10.02-15.50.39:369][  0]LogD3D11RHI: Async texture creation enabled
-[2019.10.02-15.50.39:379][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.10.02-15.50.39:379][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.10.02-15.50.39:379][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.10.02-15.50.39:386][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.10.02-15.50.39:811][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.10.02-15.50.39:821][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.10.02-15.50.39:830][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.10.02-15.50.39:834][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.10.02-15.50.39:834][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.10.02-15.50.39:839][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.10.02-15.50.39:862][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (../../../../../7003E-Saga/FinalProject/Intermediate/Shaders/WorkingDirectory/7996/).
-[2019.10.02-15.50.39:863][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Olymp/AppData/Local/Temp/UnrealShaderWorkingDir/E4B18EBD437A7D052C230DB5422AB8A8/'.
-[2019.10.02-15.50.39:864][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.10.02-15.50.39:864][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.10.02-15.50.39:864][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.10.02-15.50.40:264][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.10.02-15.50.40:300][  0]LogDerivedDataCache: Loaded boot cache 0.03s 71MB C:/Users/Olymp/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.10.02-15.50.40:300][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Olymp/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2019.10.02-15.50.40:300][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../7003E-Saga/FinalProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.10.02-15.50.40:300][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.10.02-15.50.40:300][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../7003E-Saga/FinalProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.10.02-15.50.40:300][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.10.02-15.50.40:309][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.10.02-15.50.40:309][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.10.02-15.50.40:309][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.10.02-15.50.40:321][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Olymp/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.10.02-15.50.40:321][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.10.02-15.50.40:321][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.10.02-15.50.40:337][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.10.02-15.50.40:338][  0]LogSlate: Using FreeType 2.6.0
-[2019.10.02-15.50.40:338][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.10.02-15.50.40:432][  0]LogInit: Using OS detected language (pt-BR).
-[2019.10.02-15.50.40:432][  0]LogInit: Using OS detected locale (pt-BR).
-[2019.10.02-15.50.40:432][  0]LogTextLocalizationManager: No localization for 'pt-BR' exists, so 'en' will be used for the language.
-[2019.10.02-15.50.40:432][  0]LogTextLocalizationManager: No localization for 'pt-BR' exists, so 'en' will be used for the locale.
-[2019.10.02-15.50.40:432][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2019.10.02-15.50.40:432][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2019.10.02-15.50.40:432][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
-[2019.10.02-15.50.40:436][  0]LogAssetRegistry: FAssetRegistry took 0.0029 seconds to start up
-[2019.10.02-15.50.40:570][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.000317 seconds
-[2019.10.02-15.50.40:655][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.02-15.50.40:684][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.10.02-15.50.40:684][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.10.02-15.50.40:684][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.10.02-15.50.40:684][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.10.02-15.50.40:684][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.10.02-15.50.40:747][  0]LogNetVersion: FinalProject 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1780545774)
-[2019.10.02-15.50.41:129][  0]LogMoviePlayer: Initializing movie player
-[2019.10.02-15.50.41:326][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.10.02-15.50.41:337][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.10.02-15.50.41:411][  0]SourceControl: Controle de origem desativado
-[2019.10.02-15.50.41:411][  0]SourceControl: Controle de origem desativado
-[2019.10.02-15.50.41:411][  0]SourceControl: Controle de origem desativado
-[2019.10.02-15.50.41:416][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2019.10.02-15.50.41:416][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2019.10.02-15.50.41:436][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.10.02-15.50.41:496][  0]LogOcInput: OculusInput pre-init called
-[2019.10.02-15.50.41:503][  0]LogUObjectArray: 46459 objects as part of root set at end of initial load.
-[2019.10.02-15.50.41:503][  0]LogUObjectAllocator: 8159704 out of 0 bytes used by permanent object pool.
-[2019.10.02-15.50.41:503][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.10.02-15.50.41:652][  0]LogEngine: Initializing Engine...
-[2019.10.02-15.50.41:653][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.10.02-15.50.41:664][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.10.02-15.50.41:775][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.10.02-15.50.41:775][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.10.02-15.50.41:776][  0]LogInit: Texture streaming: Enabled
-[2019.10.02-15.50.42:016][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.02-15.50.42:016][  0]LogInit: Display: Game Engine Initialized.
-[2019.10.02-15.50.42:049][  0]LogInit: Display: Starting Game.
-[2019.10.02-15.50.42:057][  0]LogNet: Browse: /Game/ThirdPersonBP/Maps/LabStage?Name=Player
-[2019.10.02-15.50.42:057][  0]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/LabStage?Name=Player
-[2019.10.02-15.50.42:082][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
-[2019.10.02-15.50.42:404][  0]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST”
-[2019.10.02-15.50.42:404][  0]LoadErrors: Falha ao carregar /Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST.M_Shockwave_01_INST Referenciado por ParticleModuleMeshMaterial_43
-[2019.10.02-15.50.42:404][  0]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST”: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST”
-[2019.10.02-15.50.42:404][  0]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST.
-[2019.10.02-15.50.42:404][  0]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST”: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST.
-[2019.10.02-15.50.42:406][  0]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01”
-[2019.10.02-15.50.42:406][  0]LoadErrors: Falha ao carregar /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01.SM_Shockwave_01 Referenciado por ParticleModuleTypeDataMesh_0
-[2019.10.02-15.50.42:406][  0]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01”: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01”
-[2019.10.02-15.50.42:406][  0]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01.
-[2019.10.02-15.50.42:406][  0]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01”: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01.
-[2019.10.02-15.50.42:553][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.EdGraphNode_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.50.42:553][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.EdGraphNode_Comment_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.50.42:554][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.50.42:554][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_80' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.50.42:554][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_81' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.50.42:554][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_82' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.50.42:554][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_83' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.50.42:554][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_84' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.50.42:554][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_85' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.50.42:554][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_86' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.50.42:554][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_87' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.50.42:554][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_88' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.50.42:554][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_89' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.50.42:554][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_90' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.50.42:554][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_91' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.50.42:554][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_92' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.50.42:554][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.50.42:554][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_94' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.50.42:554][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_Root_11' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.50.42:696][  0]LogAIModule: Creating AISystem for world LabStage
-[2019.10.02-15.50.42:696][  0]LogLoad: Game class is 'ThirdPersonMenuMode_C'
-[2019.10.02-15.50.42:715][  0]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/LabStage.LabStage up for play (max tick rate 0) at 2019.10.02-12.50.42
-[2019.10.02-15.50.42:716][  0]LogWorld: Bringing up level for play took: 0.018705
-[2019.10.02-15.50.42:814][  0]LogLoad: Took 0.756383 seconds to LoadMap(/Game/ThirdPersonBP/Maps/LabStage)
-[2019.10.02-15.50.50:237][  0]LogLoad: (Engine Initialization) Total time: 12.10 seconds
-[2019.10.02-15.50.50:237][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.10.02-15.50.50:256][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.10.02-15.50.50:299][  1]LogRenderer: Reallocating scene render targets to support 128x128 Format 10 NumSamples 1 (Frame:0).
-[2019.10.02-15.50.50:342][  2]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2019.10.02-15.51.46:881][506]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.02-15.51.47:123][518]LogPackageName: SearchForPackageOnDisk took   0.042s to resolve ThirdPersonExampleMap.umap.
-[2019.10.02-15.51.47:164][518]LogPackageName: SearchForPackageOnDisk took   0.041s to resolve ThirdPersonExampleMap.umap.
-[2019.10.02-15.51.47:164][518]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap??Game=/Game/ThirdPersonBP/ThirdPersonGameMode.ThirdPersonGameMode_C 
-[2019.10.02-15.51.47:165][518]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap??Game=/Game/ThirdPersonBP/ThirdPersonGameMode.ThirdPersonGameMode_C 
-[2019.10.02-15.51.47:223][518]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
-[2019.10.02-15.51.47:678][518]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Materials/Trails/M_Swipe_Mesh_Add_2Sided_01_INST”
-[2019.10.02-15.51.47:678][518]LoadErrors: Falha ao carregar /Game/InfinityBladeEffects/Effects/FX_Materials/Trails/M_Swipe_Mesh_Add_2Sided_01_INST.M_Swipe_Mesh_Add_2Sided_01_INST Referenciado por ParticleModuleMeshMaterial_10
-[2019.10.02-15.51.47:678][518]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Materials/Trails/M_Swipe_Mesh_Add_2Sided_01_INST”: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Materials/Trails/M_Swipe_Mesh_Add_2Sided_01_INST”
-[2019.10.02-15.51.47:678][518]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Materials/Trails/M_Swipe_Mesh_Add_2Sided_01_INST.
-[2019.10.02-15.51.47:678][518]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Materials/Trails/M_Swipe_Mesh_Add_2Sided_01_INST”: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Materials/Trails/M_Swipe_Mesh_Add_2Sided_01_INST.
-[2019.10.02-15.51.47:678][518]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Materials/M_Shockwave_01_ADD_INST”
-[2019.10.02-15.51.47:678][518]LoadErrors: Falha ao carregar /Game/InfinityBladeEffects/Effects/FX_Materials/M_Shockwave_01_ADD_INST.M_Shockwave_01_ADD_INST Referenciado por ParticleModuleMeshMaterial_9
-[2019.10.02-15.51.47:678][518]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Materials/M_Shockwave_01_ADD_INST”: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Materials/M_Shockwave_01_ADD_INST”
-[2019.10.02-15.51.47:678][518]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Materials/M_Shockwave_01_ADD_INST.
-[2019.10.02-15.51.47:678][518]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Materials/M_Shockwave_01_ADD_INST”: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Materials/M_Shockwave_01_ADD_INST.
-[2019.10.02-15.51.47:681][518]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Spiral_Swirl_01”
-[2019.10.02-15.51.47:681][518]LoadErrors: Falha ao carregar /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Spiral_Swirl_01.SM_Spiral_Swirl_01 Referenciado por ParticleModuleTypeDataMesh_0
-[2019.10.02-15.51.47:681][518]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Spiral_Swirl_01”: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Spiral_Swirl_01”
-[2019.10.02-15.51.47:681][518]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Spiral_Swirl_01.
-[2019.10.02-15.51.47:681][518]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Spiral_Swirl_01”: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Spiral_Swirl_01.
-[2019.10.02-15.51.47:681][518]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_BlastWave”
-[2019.10.02-15.51.47:681][518]LoadErrors: Falha ao carregar /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_BlastWave.SM_BlastWave Referenciado por ParticleModuleTypeDataMesh_3
-[2019.10.02-15.51.47:682][518]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_BlastWave”: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_BlastWave”
-[2019.10.02-15.51.47:682][518]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_BlastWave.
-[2019.10.02-15.51.47:682][518]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_BlastWave”: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_BlastWave.
-[2019.10.02-15.51.47:684][518]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Materials/Gradient/M_Flare_03_INST”
-[2019.10.02-15.51.47:684][518]LoadErrors: Falha ao carregar /Game/InfinityBladeEffects/Effects/FX_Materials/Gradient/M_Flare_03_INST.M_Flare_03_INST Referenciado por ParticleModuleMeshMaterial_1
-[2019.10.02-15.51.47:684][518]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Materials/Gradient/M_Flare_03_INST”: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Materials/Gradient/M_Flare_03_INST”
-[2019.10.02-15.51.47:684][518]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Materials/Gradient/M_Flare_03_INST.
-[2019.10.02-15.51.47:684][518]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Materials/Gradient/M_Flare_03_INST”: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Materials/Gradient/M_Flare_03_INST.
-[2019.10.02-15.51.47:686][518]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_BlastWave”
-[2019.10.02-15.51.47:686][518]LoadErrors: Falha ao carregar /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_BlastWave.SM_BlastWave Referenciado por ParticleModuleTypeDataMesh_3
-[2019.10.02-15.51.47:686][518]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_BlastWave”: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_BlastWave”
-[2019.10.02-15.51.47:686][518]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_BlastWave.
-[2019.10.02-15.51.47:686][518]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_BlastWave”: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_BlastWave.
-[2019.10.02-15.51.47:723][518]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST”
-[2019.10.02-15.51.47:723][518]LoadErrors: Falha ao carregar /Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST.M_Shockwave_01_INST Referenciado por ParticleModuleMeshMaterial_43
-[2019.10.02-15.51.47:723][518]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST”: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST”
-[2019.10.02-15.51.47:723][518]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST.
-[2019.10.02-15.51.47:723][518]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST”: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST.
-[2019.10.02-15.51.47:725][518]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01”
-[2019.10.02-15.51.47:725][518]LoadErrors: Falha ao carregar /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01.SM_Shockwave_01 Referenciado por ParticleModuleTypeDataMesh_0
-[2019.10.02-15.51.47:725][518]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01”: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01”
-[2019.10.02-15.51.47:725][518]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01.
-[2019.10.02-15.51.47:725][518]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01”: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01.
-[2019.10.02-15.51.49:313][518]LogTexture: Display: Building textures: Pickup_Norm (BC5, 2048X2048)
-[2019.10.02-15.51.49:532][518]LogTexture: Display: Building textures: Pickup_Masks (AutoDXT, 2048X2048)
-[2019.10.02-15.51.50:168][518]LogTexture: Display: Building textures: Pickup_Diff (AutoDXT, 2048X2048)
-[2019.10.02-15.51.51:265][518]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.EdGraphNode_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.51.51:265][518]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.EdGraphNode_Comment_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.51.51:265][518]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.51.51:265][518]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_80' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.51.51:265][518]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_81' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.51.51:265][518]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_82' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.51.51:265][518]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_83' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.51.51:265][518]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_84' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.51.51:265][518]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_85' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.51.51:265][518]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_86' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.51.51:265][518]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_87' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.51.51:265][518]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_88' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.51.51:266][518]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_89' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.51.51:266][518]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_90' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.51.51:266][518]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_91' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.51.51:266][518]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_92' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.51.51:266][518]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.51.51:266][518]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_94' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.51.51:266][518]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_Root_11' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.51.51:302][518]LogTexture: Display: Building textures: rifle (BGRA8, 600X378)
-[2019.10.02-15.51.51:323][518]LogTexture: Display: Building textures: RifleAmmo (BGRA8, 137X200)
-[2019.10.02-15.51.51:334][518]LogStaticMesh: Criando malha estática AssaultRifle_Pickup...
-[2019.10.02-15.51.51:344][518]LogStaticMesh: Built static mesh [0.01s] /Game/MilitaryWeapSilver/Pickups/AssaultRifle_Pickup.AssaultRifle_Pickup
-[2019.10.02-15.51.51:347][518]LogAudioDerivedData: Display: Criando onda OGG Rifle_AmmoPickup do formato de áudio compactado
-[2019.10.02-15.51.51:357][518]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 26580 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/Rifle_AmmoPickup.Rifle_AmmoPickup.
-[2019.10.02-15.51.51:546][518]LogStaticMesh: Criando malha estática SniperRifle_Pickup...
-[2019.10.02-15.51.51:553][518]LogStaticMesh: Built static mesh [0.01s] /Game/MilitaryWeapSilver/Pickups/SniperRifle_Pickup.SniperRifle_Pickup
-[2019.10.02-15.51.51:567][518]LogTexture: Display: Building textures: sniper (AutoDXT, 640X480)
-[2019.10.02-15.51.51:656][518]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2019.10.02-15.51.51:656][518]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.10.02-15.51.51:763][518]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2019.10.02-12.51.51
-[2019.10.02-15.51.51:789][518]LogWorld: Bringing up level for play took: 0.133547
-[2019.10.02-15.51.51:790][518]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2019.10.02-15.51.51:798][518]LogLoad: Took 4.633986 seconds to LoadMap(/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap)
-[2019.10.02-15.52.02:297][160]LogAnimMontage: Warning: JumpToSectionName   bEndOfSection: 0 failed for Montage Equip_Rifle_Standing_Montage
-[2019.10.02-15.53.04:863][ 32]LogPackageName: SearchForPackageOnDisk took   0.061s to resolve BossStage1.umap.
-[2019.10.02-15.53.04:905][ 33]LogPackageName: SearchForPackageOnDisk took   0.041s to resolve BossStage1.umap.
-[2019.10.02-15.53.04:905][ 33]LogNet: Browse: /Game/ThirdPersonBP/Maps/BossStage1??Game=/Game/ThirdPersonBP/ThirdPersonGameMode.ThirdPersonGameMode_C 
-[2019.10.02-15.53.04:905][ 33]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/BossStage1??Game=/Game/ThirdPersonBP/ThirdPersonGameMode.ThirdPersonGameMode_C 
-[2019.10.02-15.53.04:951][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
-[2019.10.02-15.53.05:237][ 33]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST”
-[2019.10.02-15.53.05:237][ 33]LoadErrors: Falha ao carregar /Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST.M_Shockwave_01_INST Referenciado por ParticleModuleMeshMaterial_43
-[2019.10.02-15.53.05:237][ 33]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST”: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST”
-[2019.10.02-15.53.05:237][ 33]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST.
-[2019.10.02-15.53.05:237][ 33]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST”: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST.
-[2019.10.02-15.53.05:239][ 33]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01”
-[2019.10.02-15.53.05:239][ 33]LoadErrors: Falha ao carregar /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01.SM_Shockwave_01 Referenciado por ParticleModuleTypeDataMesh_0
-[2019.10.02-15.53.05:239][ 33]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01”: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01”
-[2019.10.02-15.53.05:239][ 33]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01.
-[2019.10.02-15.53.05:239][ 33]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01”: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01.
-[2019.10.02-15.53.05:423][ 33]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.EdGraphNode_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.53.05:423][ 33]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.EdGraphNode_Comment_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.53.05:423][ 33]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.53.05:423][ 33]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_80' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.53.05:423][ 33]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_81' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.53.05:423][ 33]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_82' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.53.05:423][ 33]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_83' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.53.05:423][ 33]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_84' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.53.05:423][ 33]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_85' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.53.05:423][ 33]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_86' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.53.05:423][ 33]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_87' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.53.05:423][ 33]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_88' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.53.05:423][ 33]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_89' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.53.05:423][ 33]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_90' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.53.05:423][ 33]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_91' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.53.05:423][ 33]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_92' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.53.05:423][ 33]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.53.05:424][ 33]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_94' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.53.05:424][ 33]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_Root_11' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
-[2019.10.02-15.53.05:453][ 33]LogAIModule: Creating AISystem for world BossStage1
-[2019.10.02-15.53.05:453][ 33]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2019.10.02-15.53.05:457][ 33]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/BossStage1.BossStage1 up for play (max tick rate 0) at 2019.10.02-12.53.05
-[2019.10.02-15.53.05:457][ 33]LogWorld: Bringing up level for play took: 0.003576
-[2019.10.02-15.53.05:457][ 33]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2019.10.02-15.53.05:459][ 33]LogLoad: Took 0.553857 seconds to LoadMap(/Game/ThirdPersonBP/Maps/BossStage1)
+[2019.11.23-23.06.25:362][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2019.11.23-23.06.25:362][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.11.23-23.06.25:362][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Engine.ini]
+[2019.11.23-23.06.25:362][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.23-23.06.25:362][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2019.11.23-23.06.25:362][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Engine.ini]
+[2019.11.23-23.06.25:362][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Engine.ini]
+[2019.11.23-23.06.25:362][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.23-23.06.25:362][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.23-23.06.25:362][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.23-23.06.25:362][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.23-23.06.25:362][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.23-23.06.25:362][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.23-23.06.25:362][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.23-23.06.25:362][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.23-23.06.25:363][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.23-23.06.25:363][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.23-23.06.25:363][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.23-23.06.25:363][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.23-23.06.25:363][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.23-23.06.25:363][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Engine.ini]
+[2019.11.23-23.06.25:363][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.23-23.06.25:363][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.23-23.06.25:363][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.23-23.06.25:363][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.23-23.06.25:363][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.23-23.06.25:363][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.23-23.06.25:363][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.23-23.06.25:363][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.23-23.06.25:363][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.23-23.06.25:363][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.23-23.06.25:363][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.23-23.06.25:363][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.23-23.06.25:363][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.23-23.06.25:363][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Engine.ini]
+[2019.11.23-23.06.25:363][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Engine.ini]
+[2019.11.23-23.06.25:364][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-23.06.25:364][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.23-23.06.25:364][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.23-23.06.25:364][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.23-23.06.25:365][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.23-23.06.25:365][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.23-23.06.25:365][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.23-23.06.25:369][  0]LogHAL: Display: Platform has ~ 16 GB [17125621760 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.11.23-23.06.25:369][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.23-23.06.25:369][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.23-23.06.25:369][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.23-23.06.25:369][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.23-23.06.25:369][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.23-23.06.25:369][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.23-23.06.25:370][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Engine.ini]
+[2019.11.23-23.06.25:370][  0]LogInit: Computer: LABE12
+[2019.11.23-23.06.25:370][  0]LogInit: User: LabE00
+[2019.11.23-23.06.25:370][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.11.23-23.06.25:370][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.23-23.06.25:371][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.11.23-23.06.25:371][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.23-23.06.25:371][  0]LogMemory: Process Physical Memory: 98.36 MB used, 98.37 MB peak
+[2019.11.23-23.06.25:371][  0]LogMemory: Process Virtual Memory: 94.94 MB used, 94.94 MB peak
+[2019.11.23-23.06.25:371][  0]LogMemory: Physical Memory: 6977.68 MB used,  9354.59 MB free, 16332.27 MB total
+[2019.11.23-23.06.25:371][  0]LogMemory: Virtual Memory: 4643.96 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.11.23-23.06.25:381][  0]LogInit: Using OS detected language (pt-BR).
+[2019.11.23-23.06.25:381][  0]LogInit: Using OS detected locale (pt-BR).
+[2019.11.23-23.06.25:409][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pt/Editor.locres' could not be opened for reading!
+[2019.11.23-23.06.25:409][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pt/EditorTutorials.locres' could not be opened for reading!
+[2019.11.23-23.06.25:409][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pt/Keywords.locres' could not be opened for reading!
+[2019.11.23-23.06.25:409][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pt/Category.locres' could not be opened for reading!
+[2019.11.23-23.06.25:409][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pt/ToolTips.locres' could not be opened for reading!
+[2019.11.23-23.06.25:409][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pt/PropertyNames.locres' could not be opened for reading!
+[2019.11.23-23.06.25:409][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pt/Engine.locres' could not be opened for reading!
+[2019.11.23-23.06.25:409][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/Content/Localization/OnlineSubsystemGooglePlay/pt/OnlineSubsystemGooglePlay.locres' could not be opened for reading!
+[2019.11.23-23.06.25:409][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/IOS/OnlineSubsystemIOS/Content/Localization/OnlineSubsystemIOS/pt/OnlineSubsystemIOS.locres' could not be opened for reading!
+[2019.11.23-23.06.25:409][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystem/Content/Localization/OnlineSubsystem/pt/OnlineSubsystem.locres' could not be opened for reading!
+[2019.11.23-23.06.25:409][  0]LogTextLocalizationResource: LocRes '../../../Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/pt/OnlineSubsystemUtils.locres' could not be opened for reading!
+[2019.11.23-23.06.25:439][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.23-23.06.25:439][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.23-23.06.25:452][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.23-23.06.25:452][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.23-23.06.25:490][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.11.23-23.06.25:490][  0]LogD3D11RHI:       4029/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.11.23-23.06.25:491][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.23-23.06.25:492][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.23-23.06.25:492][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.23-23.06.25:497][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.23-23.06.25:498][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.23-23.06.25:498][  0]LogWindows: EnumDisplayDevices:
+[2019.11.23-23.06.25:498][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2019.11.23-23.06.25:498][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.11.23-23.06.25:498][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.11.23-23.06.25:498][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.11.23-23.06.25:498][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.11.23-23.06.25:498][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.11.23-23.06.25:498][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2019.11.23-23.06.25:498][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2019.11.23-23.06.25:498][  0]LogRHI: Texture pool is 2820 MB (70% of 4029 MB)
+[2019.11.23-23.06.25:522][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.23-23.06.25:525][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.23-23.06.25:525][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.23-23.06.25:525][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.23-23.06.25:532][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.11.23-23.06.25:760][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.23-23.06.25:772][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.23-23.06.25:783][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.23-23.06.25:788][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.23-23.06.25:788][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.23-23.06.25:795][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.23-23.06.25:830][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Intermediate/Shaders/WorkingDirectory/10296/).
+[2019.11.23-23.06.25:830][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/LabE00/AppData/Local/Temp/UnrealShaderWorkingDir/0358F51E44632E192DB7119D05C20008/'.
+[2019.11.23-23.06.25:832][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.23-23.06.25:832][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.23-23.06.25:832][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.23-23.06.26:301][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.23-23.06.26:348][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/LabE00/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.23-23.06.26:348][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/LabE00/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.11.23-23.06.26:348][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.23-23.06.26:348][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.23-23.06.26:348][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.23-23.06.26:348][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.23-23.06.26:359][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.23-23.06.26:359][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.23-23.06.26:359][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.23-23.06.26:371][  0]LogDerivedDataCache: Using Local data cache path C:/Users/LabE00/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.23-23.06.26:371][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.23-23.06.26:371][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.23-23.06.26:390][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.23-23.06.26:391][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.23-23.06.26:391][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.23-23.06.26:473][  0]LogInit: Using OS detected language (pt-BR).
+[2019.11.23-23.06.26:473][  0]LogInit: Using OS detected locale (pt-BR).
+[2019.11.23-23.06.26:473][  0]LogTextLocalizationManager: No localization for 'pt-BR' exists, so 'en' will be used for the language.
+[2019.11.23-23.06.26:473][  0]LogTextLocalizationManager: No localization for 'pt-BR' exists, so 'en' will be used for the locale.
+[2019.11.23-23.06.26:474][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2019.11.23-23.06.26:474][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2019.11.23-23.06.26:474][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
+[2019.11.23-23.06.26:480][  0]LogAssetRegistry: FAssetRegistry took 0.0034 seconds to start up
+[2019.11.23-23.06.26:628][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.000385 seconds
+[2019.11.23-23.06.26:731][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.23-23.06.26:836][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.23-23.06.26:836][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.23-23.06.26:836][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.23-23.06.26:836][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.23-23.06.26:836][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.23-23.06.26:843][  0]LogNetVersion: FinalProject 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1780545774)
+[2019.11.23-23.06.27:221][  0]LogMoviePlayer: Initializing movie player
+[2019.11.23-23.06.27:346][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.23-23.06.27:358][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.23-23.06.27:436][  0]SourceControl: Controle de origem desativado
+[2019.11.23-23.06.27:436][  0]SourceControl: Controle de origem desativado
+[2019.11.23-23.06.27:437][  0]SourceControl: Controle de origem desativado
+[2019.11.23-23.06.27:444][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.11.23-23.06.27:445][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.11.23-23.06.27:467][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.23-23.06.27:504][  0]LogOcInput: OculusInput pre-init called
+[2019.11.23-23.06.27:512][  0]LogUObjectArray: 46459 objects as part of root set at end of initial load.
+[2019.11.23-23.06.27:512][  0]LogUObjectAllocator: 8159704 out of 0 bytes used by permanent object pool.
+[2019.11.23-23.06.27:512][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.23-23.06.27:641][  0]LogEngine: Initializing Engine...
+[2019.11.23-23.06.27:642][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.23-23.06.27:653][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.11.23-23.06.27:791][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.23-23.06.27:791][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.23-23.06.27:791][  0]LogInit: Texture streaming: Enabled
+[2019.11.23-23.06.27:909][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.23-23.06.27:909][  0]LogInit: Display: Game Engine Initialized.
+[2019.11.23-23.06.27:949][  0]LogInit: Display: Starting Game.
+[2019.11.23-23.06.27:949][  0]LogNet: Browse: /Game/ThirdPersonBP/Maps/labscenein?Name=Player
+[2019.11.23-23.06.27:949][  0]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/labscenein?Name=Player
+[2019.11.23-23.06.27:972][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2019.11.23-23.06.28:305][  0]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST”
+[2019.11.23-23.06.28:305][  0]LoadErrors: Falha ao carregar /Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST.M_Shockwave_01_INST Referenciado por ParticleModuleMeshMaterial_43
+[2019.11.23-23.06.28:305][  0]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST”: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST”
+[2019.11.23-23.06.28:305][  0]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST.
+[2019.11.23-23.06.28:305][  0]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST”: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST.
+[2019.11.23-23.06.28:308][  0]LogLinker: Warning: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01”
+[2019.11.23-23.06.28:308][  0]LoadErrors: Falha ao carregar /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01.SM_Shockwave_01 Referenciado por ParticleModuleTypeDataMesh_0
+[2019.11.23-23.06.28:308][  0]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01”: Não é possível encontrar o arquivo “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01”
+[2019.11.23-23.06.28:308][  0]LogLinker: Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01.
+[2019.11.23-23.06.28:308][  0]LogUObjectGlobals: Warning: Falha ao carregar “/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01”: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01.
+[2019.11.23-23.06.28:747][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.EdGraphNode_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-23.06.28:747][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.EdGraphNode_Comment_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-23.06.28:747][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-23.06.28:747][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_80' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-23.06.28:747][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_81' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-23.06.28:747][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_82' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-23.06.28:747][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_83' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-23.06.28:747][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_84' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-23.06.28:747][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_85' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-23.06.28:747][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_86' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-23.06.28:747][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_87' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-23.06.28:747][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_88' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-23.06.28:747][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_89' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-23.06.28:747][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_90' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-23.06.28:747][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_91' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-23.06.28:747][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_92' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-23.06.28:747][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-23.06.28:747][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_94' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-23.06.28:747][  0]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_Root_11' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-23.06.28:772][  0]LogAIModule: Creating AISystem for world labscenein
+[2019.11.23-23.06.28:773][  0]LogLoad: Game class is 'ThirdPersonMenuMode_C'
+[2019.11.23-23.06.28:782][  0]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/labscenein.labscenein up for play (max tick rate 0) at 2019.11.23-20.06.28
+[2019.11.23-23.06.28:783][  0]LogWorld: Bringing up level for play took: 0.009304
+[2019.11.23-23.06.28:783][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.11.23-23.06.28:790][  0]LogLoad: Took 0.840536 seconds to LoadMap(/Game/ThirdPersonBP/Maps/labscenein)
+[2019.11.23-23.06.28:870][  0]LogSlate: Window 'FinalProject (64-bit Development PCD3D_SM5) ' being destroyed
+[2019.11.23-23.06.28:873][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.23-23.06.28:884][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.11.23-23.06.28:902][  0]LogLoad: (Engine Initialization) Total time: 4.66 seconds
+[2019.11.23-23.06.28:902][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.23-23.06.28:920][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.23-23.06.28:920][  0]LogEngine: All Windows Closed
+[2019.11.23-23.06.28:920][  0]LogWindows: FPlatformMisc::RequestExit(0)
+[2019.11.23-23.06.29:648][  1]LogExit: Preparing to exit.
+[2019.11.23-23.06.29:648][  1]LogMoviePlayer: Shutting down movie player
+[2019.11.23-23.06.30:372][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.23-23.06.30:386][  1]LogExit: Game engine shut down
+[2019.11.23-23.06.30:448][  1]LogExit: Object subsystem successfully closed.
+[2019.11.23-23.06.30:463][  1]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.11.23-23.06.30:466][  1]LogD3D11RHI: Shutdown
+[2019.11.23-23.06.30:466][  1]LogD3D11RHI: CleanupD3DDevice
+[2019.11.23-23.06.30:466][  1]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.11.23-23.06.30:466][  1]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.23-23.06.30:466][  1]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.11.23-23.06.30:466][  1]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.23-23.06.30:466][  1]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.11.23-23.06.30:466][  1]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.11.23-23.06.30:467][  1]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (398)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module SequenceRecorder (396)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module AutomationWorker (392)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module Voice (390)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module AIModule (388)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module GameplayDebugger (387)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module AITestSuite (385)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module NavigationSystem (383)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module OculusMR (380)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (378)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (376)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module WebMMedia (374)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (372)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (370)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (368)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (366)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (364)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (362)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module CharacterAI (360)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module SessionServices (358)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (356)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module LiveCoding (354)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module LevelSequence (352)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (350)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module MovieScene (348)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module PortalServices (344)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module PortalRpc (342)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module MessagingRpc (340)
+[2019.11.23-23.06.30:522][  1]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (338)
+[2019.11.23-23.06.30:524][  1]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (330)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module OculusInput (328)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (326)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module EditableMesh (324)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module AudioCapture (318)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (312)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (310)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module MediaCompositing (308)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module LinearTimecode (306)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module ImgMedia (304)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (302)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (300)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (298)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module HTML5Networking (296)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (294)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (293)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module GeometryCache (290)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (289)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module BackChannel (286)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module AppleVision (284)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (282)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module AppleImageUtils (280)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module VariantManagerContent (278)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (276)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module CryptoKeys (274)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (272)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module HotReload (271)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (270)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (266)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module UObjectPlugin (264)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (262)
+[2019.11.23-23.06.30:526][  1]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (260)
+[2019.11.23-23.06.30:527][  1]LogModuleManager: Shutting down and abandoning module SourceControl (259)
+[2019.11.23-23.06.30:527][  1]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (256)
+[2019.11.23-23.06.30:527][  1]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (254)
+[2019.11.23-23.06.30:527][  1]LogModuleManager: Shutting down and abandoning module SignificanceManager (252)
+[2019.11.23-23.06.30:527][  1]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (250)
+[2019.11.23-23.06.30:527][  1]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
+[2019.11.23-23.06.30:527][  1]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
+[2019.11.23-23.06.30:527][  1]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
+[2019.11.23-23.06.30:527][  1]LogModuleManager: Shutting down and abandoning module ActorSequence (242)
+[2019.11.23-23.06.30:527][  1]LogModuleManager: Shutting down and abandoning module UdpMessaging (240)
+[2019.11.23-23.06.30:627][  1]LogModuleManager: Shutting down and abandoning module TcpMessaging (238)

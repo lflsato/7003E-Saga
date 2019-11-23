@@ -1,0 +1,889 @@
+﻿Log file open, 11/23/19 17:25:05
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: FinalProject
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.490667
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz, GPU: NVIDIA GeForce GTX 1050 Ti
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Engine.ini]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Engine.ini]
+[2019.11.23-20.25.06:771][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Engine.ini]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Engine.ini]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.23-20.25.06:771][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Engine.ini]
+[2019.11.23-20.25.06:771][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Engine.ini]
+[2019.11.23-20.25.06:777][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.23-20.25.06:777][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.23-20.25.06:778][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.23-20.25.06:779][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.23-20.25.06:780][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.23-20.25.06:801][  0]LogHAL: Display: Platform has ~ 16 GB [17125621760 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.23-20.25.06:802][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.11.23-20.25.06:802][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.23-20.25.06:803][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.23-20.25.06:803][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Scalability.ini]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.23-20.25.06:804][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.23-20.25.06:808][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.23-20.25.06:808][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.23-20.25.06:808][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Config/Windows/Engine.ini]
+[2019.11.23-20.25.06:809][  0]LogInit: Computer: LABE12
+[2019.11.23-20.25.06:809][  0]LogInit: User: LabE00
+[2019.11.23-20.25.06:809][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.11.23-20.25.06:809][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.23-20.25.06:809][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.11.23-20.25.06:809][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.23-20.25.06:809][  0]LogMemory: Process Physical Memory: 102.25 MB used, 102.25 MB peak
+[2019.11.23-20.25.06:809][  0]LogMemory: Process Virtual Memory: 94.70 MB used, 94.70 MB peak
+[2019.11.23-20.25.06:809][  0]LogMemory: Physical Memory: 6164.06 MB used,  10168.21 MB free, 16332.27 MB total
+[2019.11.23-20.25.06:809][  0]LogMemory: Virtual Memory: 4644.52 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.11.23-20.25.07:032][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.11.23-20.25.07:032][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.11.23-20.25.07:298][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.23-20.25.07:400][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.23-20.25.07:400][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.23-20.25.09:237][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.23-20.25.09:237][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.23-20.25.09:297][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.11.23-20.25.09:297][  0]LogD3D11RHI:       4029/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.11.23-20.25.09:302][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.23-20.25.09:302][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.23-20.25.09:302][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.23-20.25.09:310][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.23-20.25.09:311][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.23-20.25.09:311][  0]LogWindows: EnumDisplayDevices:
+[2019.11.23-20.25.09:311][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2019.11.23-20.25.09:311][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.11.23-20.25.09:311][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.11.23-20.25.09:312][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.11.23-20.25.09:312][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.11.23-20.25.09:312][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.11.23-20.25.09:312][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2019.11.23-20.25.09:312][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2019.11.23-20.25.09:312][  0]LogRHI: Texture pool is 2820 MB (70% of 4029 MB)
+[2019.11.23-20.25.09:343][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.23-20.25.09:358][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.23-20.25.09:358][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.23-20.25.09:358][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.23-20.25.09:369][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.11.23-20.25.10:728][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.23-20.25.10:751][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.23-20.25.10:773][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.23-20.25.10:794][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.23-20.25.10:821][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.23-20.25.10:844][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.23-20.25.10:867][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.23-20.25.10:891][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.23-20.25.10:910][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.23-20.25.10:999][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.23-20.25.10:999][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.23-20.25.10:999][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.23-20.25.10:999][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.23-20.25.10:999][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.23-20.25.10:999][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.23-20.25.10:999][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.23-20.25.10:999][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.23-20.25.10:999][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.23-20.25.10:999][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.23-20.25.10:999][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.23-20.25.10:999][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.23-20.25.10:999][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.23-20.25.10:999][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.23-20.25.10:999][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.23-20.25.10:999][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.23-20.25.10:999][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.23-20.25.10:999][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.23-20.25.11:012][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.23-20.25.11:098][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.23-20.25.11:098][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.23-20.25.11:128][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.23-20.25.11:128][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.23-20.25.11:149][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.23-20.25.11:170][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.23-20.25.11:191][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.23-20.25.11:219][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.23-20.25.11:270][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.23-20.25.11:270][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.23-20.25.11:270][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.23-20.25.11:329][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.23-20.25.11:677][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Intermediate/Shaders/WorkingDirectory/12400/).
+[2019.11.23-20.25.11:677][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/LabE00/AppData/Local/Temp/UnrealShaderWorkingDir/B5EF1163462D4BDACB3426810C06090E/'.
+[2019.11.23-20.25.11:684][  0]LogXGEController: Cleaning working directory: C:/Users/LabE00/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.11.23-20.25.11:684][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.23-20.25.11:684][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.23-20.25.11:684][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.23-20.25.13:716][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.23-20.25.13:920][  0]LogDerivedDataCache: Loaded boot cache 0.20s 73MB C:/Users/LabE00/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.23-20.25.13:920][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/LabE00/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.11.23-20.25.13:920][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.23-20.25.13:920][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.23-20.25.13:920][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.23-20.25.13:920][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.23-20.25.13:940][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.23-20.25.13:940][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.23-20.25.13:940][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.23-20.25.13:953][  0]LogDerivedDataCache: Using Local data cache path C:/Users/LabE00/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.23-20.25.13:953][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.23-20.25.13:953][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.23-20.25.13:975][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.23-20.25.13:985][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.23-20.25.14:002][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.23-20.25.14:283][  0]LogAssetRegistry: FAssetRegistry took 0.0351 seconds to start up
+[2019.11.23-20.25.14:935][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.23-20.25.15:681][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.23-20.25.15:681][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.23-20.25.15:681][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.23-20.25.15:681][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.23-20.25.15:681][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.23-20.25.15:738][  0]LogNetVersion: FinalProject 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1780545774)
+[2019.11.23-20.25.16:697][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.041976 seconds
+[2019.11.23-20.25.16:704][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.11.23-20.25.16:704][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.11.23-20.25.16:704][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.23-20.25.20:338][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.23-20.25.20:366][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.23-20.25.20:750][  0]SourceControl: Source control is disabled
+[2019.11.23-20.25.20:752][  0]SourceControl: Source control is disabled
+[2019.11.23-20.25.20:816][  0]SourceControl: Source control is disabled
+[2019.11.23-20.25.20:834][  0]SourceControl: Source control is disabled
+[2019.11.23-20.25.20:878][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.11.23-20.25.20:879][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.11.23-20.25.21:523][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.23-20.25.21:843][  0]LogOcInput: OculusInput pre-init called
+[2019.11.23-20.25.22:705][  0]LogEngine: Initializing Engine...
+[2019.11.23-20.25.22:712][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.23-20.25.22:716][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.002 s
+[2019.11.23-20.25.22:932][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.23-20.25.23:036][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.23-20.25.23:077][  0]LogInit: XAudio2 using 'Alto-falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.23-20.25.23:106][  0]LogInit: FAudioDevice initialized.
+[2019.11.23-20.25.23:107][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.23-20.25.23:185][  0]LogDerivedDataCache: Saved boot cache 0.08s 73MB C:/Users/LabE00/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.23-20.25.23:194][  0]LogInit: Texture streaming: Enabled
+[2019.11.23-20.25.23:283][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.23-20.25.23:497][  0]LogInit: Transaction tracking system initialized
+[2019.11.23-20.25.23:644][  0]BlueprintLog: New page: Editor Load
+[2019.11.23-20.25.28:184][  0]LocalizationService: Localization service is disabled
+[2019.11.23-20.25.28:595][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.11.23-20.25.28:595][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.11.23-20.25.28:824][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.23-20.25.28:824][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.23-20.25.29:178][  0]LogFileCache: Scanning file cache for directory 'C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Content/' took 0.03s
+[2019.11.23-20.25.29:654][  0]SourceControl: Source control is disabled
+[2019.11.23-20.25.29:657][  0]Cmd: MAP LOAD FILE="../../../../../../Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Content/ThirdPersonBP/Maps/Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.23-20.25.29:662][  0]LightingResults: New page: Lighting Build
+[2019.11.23-20.25.29:685][  0]MapCheck: New page: Map Check
+[2019.11.23-20.25.29:685][  0]LightingResults: New page: Lighting Build
+[2019.11.23-20.25.29:745][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2019.11.23-20.25.29:886][  0]LogTexture: Display: Building textures: 1080normal (BGRA8, 500X162)
+[2019.11.23-20.25.29:886][  0]LogTexture: Display: Building textures: StartGameNormal (BGRA8, 500X162)
+[2019.11.23-20.25.29:886][  0]LogTexture: Display: Building textures: QuitGameNormal (BGRA8, 500X162)
+[2019.11.23-20.25.29:887][  0]LogTexture: Display: Building textures: Title (BGRA8, 515X354)
+[2019.11.23-20.25.29:887][  0]LogTexture: Display: Building textures: OptionsNormal (BGRA8, 500X162)
+[2019.11.23-20.25.29:887][  0]LogTexture: Display: Building textures: MainMenuNormal (BGRA8, 500X162)
+[2019.11.23-20.25.29:887][  0]LogTexture: Display: Building textures: 640Normal (BGRA8, 500X162)
+[2019.11.23-20.25.29:887][  0]LogTexture: Display: Building textures: 720Normal (BGRA8, 500X162)
+[2019.11.23-20.25.29:955][  0]LogTexture: Display: Building textures: Kalebe (BGRA8, 1000X1415)
+[2019.11.23-20.25.29:955][  0]LogAIModule: Creating AISystem for world Default
+[2019.11.23-20.25.29:964][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.23-20.25.30:008][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2019.11.23-20.25.30:010][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.23-20.25.30:011][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.676ms to complete.
+[2019.11.23-20.25.30:011][  0]LogFileHelpers: Loading map 'Default' took 0.356
+[2019.11.23-20.25.30:274][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.23-20.25.30:282][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.23-20.25.30:290][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.23-20.25.30:297][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.23-20.25.30:331][  0]LogCollectionManager: Loaded 0 collections in 0.001286 seconds
+[2019.11.23-20.25.30:399][  0]LogFileCache: Scanning file cache for directory 'C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Saved/Collections/' took 0.01s
+[2019.11.23-20.25.30:399][  0]LogFileCache: Scanning file cache for directory 'C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Content/Developers/LabE00/Collections/' took 0.01s
+[2019.11.23-20.25.30:399][  0]LogFileCache: Scanning file cache for directory 'C:/Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Content/Collections/' took 0.01s
+[2019.11.23-20.25.30:399][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.11.23-20.25.30:410][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2732 classes and 659 folders.
+[2019.11.23-20.25.30:429][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.23-20.25.30:438][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:447][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:460][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:465][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:470][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:476][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:481][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:486][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:492][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:500][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:504][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:510][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:517][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:522][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:528][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:533][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:558][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:564][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:570][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:576][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:583][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:589][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:595][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:601][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:607][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:613][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.23-20.25.30:838][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.23-20.25.30:882][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.11.23-20.25.31:066][  0]LogSlate: Took 0.004448 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.23-20.25.31:075][  0]LogSlate: Took 0.004554 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.23-20.25.31:090][  0]LogSlate: Took 0.005398 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.23-20.25.31:207][  0]LogRenderer: Reallocating scene render targets to support 1056x556 Format 10 NumSamples 1 (Frame:1).
+[2019.11.23-20.25.31:403][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.23-20.25.31:424][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.11.23-20.25.31:478][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.23-20.25.31:478][  0]LogLoad: (Engine Initialization) Total time: 29.40 seconds
+[2019.11.23-20.25.31:478][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.23-20.25.31:565][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.23-20.25.31:627][  0]LogSlate: Took 0.004902 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.23-20.25.36:045][426]LogAssetRegistry: Asset discovery search completed in 21.7867 seconds
+[2019.11.23-20.25.36:049][426]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.11.23-20.25.36:049][426]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000449 seconds (updated 0 objects)
+[2019.11.23-20.41.33:449][582]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.23-20.41.33:634][604]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.23-20.41.33:826][604]LogLinker: Warning: Can't find file '/Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST'
+[2019.11.23-20.41.33:826][604]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST' while loading NULL.
+[2019.11.23-20.41.33:827][604]LogLinker: Warning: Can't find file '/Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST'
+[2019.11.23-20.41.33:827][604]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST' while loading NULL.
+[2019.11.23-20.41.33:827][604]LogLinker: Warning: Can't find file '/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01'
+[2019.11.23-20.41.33:827][604]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01' while loading NULL.
+[2019.11.23-20.41.33:827][604]LogLinker: Warning: Can't find file '/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01'
+[2019.11.23-20.41.33:828][604]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01' while loading NULL.
+[2019.11.23-20.41.34:118][604]LogLinker: Warning: Can't find file '/Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST'
+[2019.11.23-20.41.34:118][604]LoadErrors: Failed to load /Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST.M_Shockwave_01_INST Referenced by ParticleModuleMeshMaterial_43
+[2019.11.23-20.41.34:118][604]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeEffects/Effects/FX_Materials/Noise/M_Shockwave_01_INST' while loading NULL.
+[2019.11.23-20.41.34:119][604]LogLinker: Warning: Can't find file '/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01'
+[2019.11.23-20.41.34:119][604]LoadErrors: Failed to load /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01.SM_Shockwave_01 Referenced by ParticleModuleTypeDataMesh_0
+[2019.11.23-20.41.34:119][604]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_Shockwave_01' while loading NULL.
+[2019.11.23-20.41.34:321][604]LogTexture: Display: Building textures: T_starFlare_01 (AutoDXT, 256X256)
+[2019.11.23-20.41.34:321][604]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2019.11.23-20.41.34:321][604]LogTexture: Display: Building textures: FX_Glow_12alpha (AutoDXT, 512X512)
+[2019.11.23-20.41.34:321][604]LogTexture: Display: Building textures: T_Pistol_Smoke_2x2_A (AutoDXT, 1024X1024)
+[2019.11.23-20.41.34:321][604]LogTexture: Display: Building textures: T_FL_Detail_01 (BGRA8, 1024X1024)
+[2019.11.23-20.41.34:321][604]LogTexture: Display: Building textures: T_LightCone (AutoDXT, 256X256)
+[2019.11.23-20.41.34:321][604]LogTexture: Display: Building textures: T_Tile_Noise_Tendril_01 (AutoDXT, 1024X1024)
+[2019.11.23-20.41.34:321][604]LogTexture: Display: Building textures: T_Resurrection_Phoenix (AutoDXT, 1024X1024)
+[2019.11.23-20.41.34:321][604]LogMaterial: Display: Missing cached shader map for material M_Add_Sprite_Master_DepthFade, compiling. 
+[2019.11.23-20.41.34:445][604]LogTexture: Display: Building textures: Mana_NoFill (BGRA8, 202X19)
+[2019.11.23-20.41.34:445][604]LogTexture: Display: Building textures: Mana_Fill (BGRA8, 210X26)
+[2019.11.23-20.41.34:445][604]LogTexture: Display: Building textures: Health_NoFill (BGRA8, 202X19)
+[2019.11.23-20.41.34:445][604]LogTexture: Display: Building textures: Health_Fill (BGRA8, 208X26)
+[2019.11.23-20.41.34:445][604]LogTexture: Display: Building textures: BarsBack (BGRA8, 237X73)
+[2019.11.23-20.41.34:445][604]LogTexture: Display: Building textures: XPBar_NoFill (BGRA8, 746X51)
+[2019.11.23-20.41.34:445][604]LogTexture: Display: Building textures: XPBar_Fill (BGRA8, 746X51)
+[2019.11.23-20.41.34:445][604]LogTexture: Display: Building textures: PlayerPicBack (BGRA8, 133X140)
+[2019.11.23-20.41.34:445][604]LogTexture: Display: Building textures: PlayerPic2 (BGRA8, 117X117)
+[2019.11.23-20.41.34:445][604]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2019.11.23-20.41.34:446][604]LogMaterial: Display: Missing cached shader map for material M_Add_Sprite_SubUV_Master, compiling. 
+[2019.11.23-20.41.34:464][604]LogTexture: Display: Building textures: T_Sparks_04_SubUV_1_4 (AutoDXT, 512X512)
+[2019.11.23-20.41.34:611][604]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2019.11.23-20.41.34:611][604]LogMaterial: Display: Missing cached shader map for material M_Add_Sprite_Pan_Emis_Mask_Master, compiling. 
+[2019.11.23-20.41.35:388][604]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 64X64)
+[2019.11.23-20.41.35:388][604]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2019.11.23-20.41.35:388][604]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2019.11.23-20.41.35:388][604]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2019.11.23-20.41.35:388][604]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 64X64)
+[2019.11.23-20.41.35:388][604]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2019.11.23-20.41.35:388][604]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2019.11.23-20.41.35:388][604]LogMaterial: Display: Missing cached shader map for material M_Add_Sprite_Pan_Emis_Mask_Master, compiling. 
+[2019.11.23-20.41.35:401][604]LogMaterial: Display: Missing cached shader map for material M_Add_Sprite_Master, compiling. 
+[2019.11.23-20.41.36:106][604]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2019.11.23-20.41.36:106][604]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 64X32)
+[2019.11.23-20.41.36:106][604]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 1024X512)
+[2019.11.23-20.41.36:106][604]LogTexture: Display: Building textures: ShadowMapTexture2D_52 (BGRA8, 512X512)
+[2019.11.23-20.41.36:106][604]LogTexture: Display: Building textures: ShadowMapTexture2D_53 (BGRA8, 512X512)
+[2019.11.23-20.41.36:106][604]LogTexture: Display: Building textures: ShadowMapTexture2D_54 (BGRA8, 1024X256)
+[2019.11.23-20.41.36:106][604]LogTexture: Display: Building textures: ShadowMapTexture2D_55 (G8, 32X32)
+[2019.11.23-20.41.36:106][604]LogTexture: Display: Building textures: lambert1_Roughness (AutoDXT, 2048X2048)
+[2019.11.23-20.41.36:106][604]LogTexture: Display: Building textures: cela_c_textura_lambert1_BaseColor (AutoDXT, 2048X2048)
+[2019.11.23-20.41.36:106][604]LogTexture: Display: Building textures: lambert1_Normal_DirectX (BC5, 2048X2048)
+[2019.11.23-20.41.36:106][604]LogTexture: Display: Building textures: lambert1_Normal (BC5, 2048X2048)
+[2019.11.23-20.41.36:106][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Animation/Equip_Rifle_Standing.Equip_Rifle_Standing
+[2019.11.23-20.41.36:337][604]LogTexture: Display: Building textures: lambert1_Mixed_AO (AutoDXT, 2048X2048)
+[2019.11.23-20.41.36:337][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Animation/Equip_Rifle_Standing.Equip_Rifle_Standing) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.39:116][604]LogTexture: Display: Building textures: lambert1_Metallic (AutoDXT, 2048X2048)
+[2019.11.23-20.41.39:117][604]LogTexture: Display: Building textures: lambert1_Height (AutoDXT, 2048X2048)
+[2019.11.23-20.41.39:117][604]LogTexture: Display: Building textures: lambert1_Base_Color (AutoDXT, 2048X2048)
+[2019.11.23-20.41.39:117][604]LogTexture: Display: Building textures: cela_c_textura_lambert1_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.11.23-20.41.39:117][604]LogTexture: Display: Building textures: lampada_anisotropic1_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.11.23-20.41.39:117][604]LogTexture: Display: Building textures: cela_c_textura_lambert1_Normal (BC5, 2048X2048)
+[2019.11.23-20.41.39:117][604]LogTexture: Display: Building textures: lampada_anisotropic1_Normal (BC5, 2048X2048)
+[2019.11.23-20.41.39:117][604]LogTexture: Display: Building textures: lampada_anisotropic1_BaseColor (AutoDXT, 2048X2048)
+[2019.11.23-20.41.39:117][604]LogTexture: Display: Building textures: SpacePirate_specular (AutoDXT, 2048X2048)
+[2019.11.23-20.41.39:117][604]LogTexture: Display: Building textures: SpacePirate_normal (BC5, 2048X2048)
+[2019.11.23-20.41.39:117][604]LogTexture: Display: Building textures: SpacePirate_diffuse (AutoDXT, 2048X2048)
+[2019.11.23-20.41.39:117][604]LogTexture: Display: Building textures: T_Smoke_8x8_B_01 (AutoDXT, 4096X4096)
+[2019.11.23-20.41.46:854][604]LogTexture: Display: Building textures: lampada_phongE1_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.11.23-20.41.46:854][604]LogTexture: Display: Building textures: lampada_phongE1_Normal (BC5, 2048X2048)
+[2019.11.23-20.41.46:854][604]LogTexture: Display: Building textures: lampada_phongE1_BaseColor (AutoDXT, 2048X2048)
+[2019.11.23-20.41.46:854][604]LogTexture: Display: Building textures: T_Sparks_02 (AutoDXT, 128X512)
+[2019.11.23-20.41.46:854][604]LogTexture: Display: Building textures: T_Pistol_Streaks_01 (AutoDXT, 32X128)
+[2019.11.23-20.41.46:854][604]LogTexture: Display: Building textures: T_SparkImpacts_2x2_01 (AutoDXT, 512X512)
+[2019.11.23-20.41.46:854][604]LogTexture: Display: Building textures: T_Ember_01 (AutoDXT, 256X256)
+[2019.11.23-20.41.46:854][604]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2019.11.23-20.41.46:854][604]LogTexture: Display: Building textures: T_Spherical_NormalMap_01 (BC5, 1024X1024)
+[2019.11.23-20.41.46:854][604]LogTexture: Display: Building textures: T_AssaultRifle_MuzzleFlashes_01 (AutoDXT, 512X512)
+[2019.11.23-20.41.46:854][604]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2019.11.23-20.41.46:854][604]LogTexture: Display: Building textures: T_SmokeRibbon_01 (AutoDXT, 128X64)
+[2019.11.23-20.41.46:854][604]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2019.11.23-20.41.46:854][604]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2019.11.23-20.41.46:854][604]LogTexture: Display: Building textures: T_Fire_subUV_6X6 (AutoDXT, 1024X1024)
+[2019.11.23-20.41.46:859][604]LogMaterial: Display: Missing cached shader map for material M_Smoke_8x8_B_01, compiling. 
+[2019.11.23-20.41.46:969][604]LogMaterial: Display: Missing cached shader map for material M_Pistol_Smoke_2x2_A, compiling. 
+[2019.11.23-20.41.47:046][604]LogMaterial: Display: Missing cached shader map for material Concreto, compiling. 
+[2019.11.23-20.41.47:095][604]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Call_to_Swords...
+[2019.11.23-20.41.48:890][604]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 22038288 while cooking SoundWave /Game/Audio/Call_to_Swords.Call_to_Swords.
+[2019.11.23-20.41.48:895][604]LogStaticMesh: Building static mesh cela_c_textura...
+[2019.11.23-20.41.50:152][604]LogStaticMesh: Built static mesh [1.26s] /Game/Cela/cela_c_textura.cela_c_textura
+[2019.11.23-20.41.50:177][604]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2019.11.23-20.41.50:194][604]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2019.11.23-20.41.50:232][604]LogStaticMesh: Building static mesh gerador_entre_celas...
+[2019.11.23-20.41.50:839][604]LogStaticMesh: Built static mesh [0.61s] /Game/Cela/GeradorEntreCelas/gerador_entre_celas.gerador_entre_celas
+[2019.11.23-20.41.50:848][604]LogMaterial: Display: Missing cached shader map for material anisotropic1, compiling. 
+[2019.11.23-20.41.50:864][604]LogStaticMesh: Building static mesh lampada...
+[2019.11.23-20.41.50:916][604]LogStaticMesh: Built static mesh [0.05s] /Game/Cela/lamp/lampada.lampada
+[2019.11.23-20.41.50:960][604]LogMaterial: Display: Missing cached shader map for material SpacePirate_M, compiling. 
+[2019.11.23-20.41.50:995][604]LogSkeletalMesh: Building Skeletal Mesh Eve_by_J__Gonzales...
+[2019.11.23-20.41.51:028][604]LogSkeletalMesh: Built Skeletal Mesh [0.03s] /Game/Personagens/Eve_by_J__Gonzales.Eve_by_J__Gonzales
+[2019.11.23-20.41.51:030][604]LogStaticMesh: Building static mesh TemplateFloor...
+[2019.11.23-20.41.51:031][604]LogStaticMesh: Built static mesh [0.00s] /Game/Geometry/Meshes/TemplateFloor.TemplateFloor
+[2019.11.23-20.41.51:035][604]LogMaterial: Display: Missing cached shader map for material phongE1, compiling. 
+[2019.11.23-20.41.51:054][604]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Rifle_Reload02...
+[2019.11.23-20.41.51:066][604]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 42110 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/Rifle_Reload02.Rifle_Reload02.
+[2019.11.23-20.41.51:067][604]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Rifle_Reload01...
+[2019.11.23-20.41.51:080][604]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 45252 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/Rifle_Reload01.Rifle_Reload01.
+[2019.11.23-20.41.51:080][604]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave RifleA_Fire_ST06...
+[2019.11.23-20.41.51:123][604]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 361500 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_ST06.RifleA_Fire_ST06.
+[2019.11.23-20.41.51:124][604]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave RifleA_Fire_ST05...
+[2019.11.23-20.41.51:160][604]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 262608 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_ST05.RifleA_Fire_ST05.
+[2019.11.23-20.41.51:160][604]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave RifleA_Fire_ST04...
+[2019.11.23-20.41.51:198][604]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 317432 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_ST04.RifleA_Fire_ST04.
+[2019.11.23-20.41.51:198][604]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave RifleA_Fire_ST03...
+[2019.11.23-20.41.51:225][604]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 234732 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_ST03.RifleA_Fire_ST03.
+[2019.11.23-20.41.51:225][604]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave RifleA_Fire_ST02...
+[2019.11.23-20.41.51:259][604]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 294788 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_ST02.RifleA_Fire_ST02.
+[2019.11.23-20.41.51:259][604]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave RifleA_Fire_ST01...
+[2019.11.23-20.41.51:288][604]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 317212 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire_ST01.RifleA_Fire_ST01.
+[2019.11.23-20.41.51:289][604]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave RifleA_Fire06...
+[2019.11.23-20.41.51:311][604]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 180750 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire06.RifleA_Fire06.
+[2019.11.23-20.41.51:311][604]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave RifleA_Fire05...
+[2019.11.23-20.41.51:330][604]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 131304 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire05.RifleA_Fire05.
+[2019.11.23-20.41.51:331][604]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave RifleA_Fire04...
+[2019.11.23-20.41.51:350][604]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 158716 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire04.RifleA_Fire04.
+[2019.11.23-20.41.51:350][604]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave RifleA_Fire03...
+[2019.11.23-20.41.51:369][604]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 117366 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire03.RifleA_Fire03.
+[2019.11.23-20.41.51:369][604]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave RifleA_Fire02...
+[2019.11.23-20.41.51:386][604]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 147394 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire02.RifleA_Fire02.
+[2019.11.23-20.41.51:386][604]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave RifleA_Fire01...
+[2019.11.23-20.41.51:407][604]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 158606 while cooking SoundWave /Game/MilitaryWeapSilver/Sound/Rifle/Wavs/RifleA_Fire01.RifleA_Fire01.
+[2019.11.23-20.41.51:407][604]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.EdGraphNode_Comment_1' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-20.41.51:407][604]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.EdGraphNode_Comment_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-20.41.51:407][604]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-20.41.51:407][604]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_80' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-20.41.51:407][604]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_81' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-20.41.51:407][604]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_82' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-20.41.51:407][604]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_83' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-20.41.51:407][604]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_84' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-20.41.51:407][604]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_85' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-20.41.51:408][604]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_86' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-20.41.51:408][604]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_87' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-20.41.51:408][604]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_88' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-20.41.51:408][604]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_89' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-20.41.51:408][604]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_90' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-20.41.51:408][604]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_91' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-20.41.51:408][604]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_92' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-20.41.51:408][604]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_93' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-20.41.51:408][604]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_94' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-20.41.51:408][604]LogBlueprint: Warning: Node '/Game/MilitaryWeapSilver/Sound/Rifle/Cues/RifleA_Fire_Cue.RifleA_Fire_Cue:SoundCueGraph_11.SoundCueGraphNode_Root_11' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2019.11.23-20.41.51:410][604]LogMaterial: Display: Missing cached shader map for material M_Pistol_Streaks_01, compiling. 
+[2019.11.23-20.41.51:423][604]LogMaterial: Display: Missing cached shader map for material M_SparksImpact_2x2_01, compiling. 
+[2019.11.23-20.41.51:437][604]LogMaterial: Display: Missing cached shader map for material M_Ember_Speed_01, compiling. 
+[2019.11.23-20.41.51:464][604]LogStaticMesh: Building static mesh St_Sphere_01...
+[2019.11.23-20.41.51:471][604]LogStaticMesh: Built static mesh [0.01s] /Game/MilitaryWeapSilver/FX/Meshes/St_Sphere_01.St_Sphere_01
+[2019.11.23-20.41.51:477][604]LogMaterial: Display: Missing cached shader map for material M_GlowSphere_01, compiling. 
+[2019.11.23-20.41.51:494][604]LogMaterial: Display: Missing cached shader map for material M_AssaultRifle_MuzzleFlash_4x1, compiling. 
+[2019.11.23-20.41.51:509][604]LogStaticMesh: Building static mesh St_Tracer_A...
+[2019.11.23-20.41.51:510][604]LogStaticMesh: Built static mesh [0.00s] /Game/MilitaryWeapSilver/FX/Meshes/St_Tracer_A.St_Tracer_A
+[2019.11.23-20.41.51:514][604]LogMaterial: Display: Missing cached shader map for material M_Tracer_A, compiling. 
+[2019.11.23-20.41.51:528][604]LogMaterial: Display: Missing cached shader map for material M_SmokeRibbon_01, compiling. 
+[2019.11.23-20.41.51:559][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_ShootOnce.Rifle_ShootOnce
+[2019.11.23-20.41.51:559][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_ShootOnce.Rifle_ShootOnce) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:560][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_Reload_2.Rifle_Reload_2
+[2019.11.23-20.41.51:560][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_Reload_2.Rifle_Reload_2) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:564][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Movement/Animations/InPlace/Crouch_WalkFwdLoop.Crouch_WalkFwdLoop
+[2019.11.23-20.41.51:564][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Movement/Animations/InPlace/Crouch_WalkFwdLoop.Crouch_WalkFwdLoop) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:565][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Crouch_Idle.Crouch_Idle
+[2019.11.23-20.41.51:565][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Crouch_Idle.Crouch_Idle) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:567][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_WalkFwdLoop.Rifle_WalkFwdLoop
+[2019.11.23-20.41.51:567][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_WalkFwdLoop.Rifle_WalkFwdLoop) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:569][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_WalkBwdLoop.Rifle_WalkBwdLoop
+[2019.11.23-20.41.51:569][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_WalkBwdLoop.Rifle_WalkBwdLoop) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:570][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_StrafeRunRightLoop.Rifle_StrafeRunRightLoop
+[2019.11.23-20.41.51:570][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_StrafeRunRightLoop.Rifle_StrafeRunRightLoop) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:571][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_StrafeRunLeftLoop.Rifle_StrafeRunLeftLoop
+[2019.11.23-20.41.51:571][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_StrafeRunLeftLoop.Rifle_StrafeRunLeftLoop) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:574][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_StrafeRun45RightLoop.Rifle_StrafeRun45RightLoop
+[2019.11.23-20.41.51:574][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_StrafeRun45RightLoop.Rifle_StrafeRun45RightLoop) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:575][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_StrafeRun45LeftLoop.Rifle_StrafeRun45LeftLoop
+[2019.11.23-20.41.51:576][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_StrafeRun45LeftLoop.Rifle_StrafeRun45LeftLoop) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:578][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_StrafeRun135RightLoop.Rifle_StrafeRun135RightLoop
+[2019.11.23-20.41.51:578][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_StrafeRun135RightLoop.Rifle_StrafeRun135RightLoop) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:579][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_StrafeRun135LeftLoop.Rifle_StrafeRun135LeftLoop
+[2019.11.23-20.41.51:579][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_StrafeRun135LeftLoop.Rifle_StrafeRun135LeftLoop) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:579][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_StrafeRightLoop.Rifle_StrafeRightLoop
+[2019.11.23-20.41.51:579][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_StrafeRightLoop.Rifle_StrafeRightLoop) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:581][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_StrafeRight45Loop.Rifle_StrafeRight45Loop
+[2019.11.23-20.41.51:581][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_StrafeRight45Loop.Rifle_StrafeRight45Loop) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:581][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_StrafeRight135Loop.Rifle_StrafeRight135Loop
+[2019.11.23-20.41.51:582][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_StrafeRight135Loop.Rifle_StrafeRight135Loop) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:582][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_StrafeLeftLoop.Rifle_StrafeLeftLoop
+[2019.11.23-20.41.51:582][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_StrafeLeftLoop.Rifle_StrafeLeftLoop) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:583][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_StrafeLeft45Loop.Rifle_StrafeLeft45Loop
+[2019.11.23-20.41.51:583][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_StrafeLeft45Loop.Rifle_StrafeLeft45Loop) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:584][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_StrafeLeft135Loop.Rifle_StrafeLeft135Loop
+[2019.11.23-20.41.51:584][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_StrafeLeft135Loop.Rifle_StrafeLeft135Loop) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:585][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_RunFwdLoop.Rifle_RunFwdLoop
+[2019.11.23-20.41.51:585][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_RunFwdLoop.Rifle_RunFwdLoop) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:586][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_RunBwdLoop.Rifle_RunBwdLoop
+[2019.11.23-20.41.51:587][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_RunBwdLoop.Rifle_RunBwdLoop) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:588][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Standing_Walk_Right_inPlace.Standing_Walk_Right_inPlace
+[2019.11.23-20.41.51:588][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Standing_Walk_Right_inPlace.Standing_Walk_Right_inPlace) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:589][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Standing_Walk_Left_inPlace.Standing_Walk_Left_inPlace
+[2019.11.23-20.41.51:589][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Standing_Walk_Left_inPlace.Standing_Walk_Left_inPlace) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:590][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Standing_Walk_Forward_inPlace.Standing_Walk_Forward_inPlace
+[2019.11.23-20.41.51:590][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Standing_Walk_Forward_inPlace.Standing_Walk_Forward_inPlace) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:591][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Standing_Walk_Back_inPlace.Standing_Walk_Back_inPlace
+[2019.11.23-20.41.51:591][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Standing_Walk_Back_inPlace.Standing_Walk_Back_inPlace) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:592][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Standing_Run_Right_inPlace.Standing_Run_Right_inPlace
+[2019.11.23-20.41.51:592][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Standing_Run_Right_inPlace.Standing_Run_Right_inPlace) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:593][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Standing_Run_Left_inPlace.Standing_Run_Left_inPlace
+[2019.11.23-20.41.51:593][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Standing_Run_Left_inPlace.Standing_Run_Left_inPlace) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:605][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Standing_Run_Forward_inPlace.Standing_Run_Forward_inPlace
+[2019.11.23-20.41.51:605][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Standing_Run_Forward_inPlace.Standing_Run_Forward_inPlace) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:606][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Standing_Run_Back_inPlace.Standing_Run_Back_inPlace
+[2019.11.23-20.41.51:606][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Standing_Run_Back_inPlace.Standing_Run_Back_inPlace) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:607][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_CrouchLoop.Rifle_CrouchLoop
+[2019.11.23-20.41.51:607][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_CrouchLoop.Rifle_CrouchLoop) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:614][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_Crouch_WalkRt.Rifle_Crouch_WalkRt
+[2019.11.23-20.41.51:614][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_Crouch_WalkRt.Rifle_Crouch_WalkRt) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:615][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_Crouch_WalkLt.Rifle_Crouch_WalkLt
+[2019.11.23-20.41.51:616][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_Crouch_WalkLt.Rifle_Crouch_WalkLt) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:617][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_Crouch_WalkFwd.Rifle_Crouch_WalkFwd
+[2019.11.23-20.41.51:618][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_Crouch_WalkFwd.Rifle_Crouch_WalkFwd) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:619][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_Crouch_WalkBwd.Rifle_Crouch_WalkBwd
+[2019.11.23-20.41.51:619][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_Crouch_WalkBwd.Rifle_Crouch_WalkBwd) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:620][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_Crouch_StrafeRight45.Rifle_Crouch_StrafeRight45
+[2019.11.23-20.41.51:620][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_Crouch_StrafeRight45.Rifle_Crouch_StrafeRight45) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:622][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_Crouch_StrafeRight135.Rifle_Crouch_StrafeRight135
+[2019.11.23-20.41.51:622][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_Crouch_StrafeRight135.Rifle_Crouch_StrafeRight135) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:625][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_Crouch_StrafeLeftt45.Rifle_Crouch_StrafeLeftt45
+[2019.11.23-20.41.51:625][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_Crouch_StrafeLeftt45.Rifle_Crouch_StrafeLeftt45) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:626][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_Crouch_StrafeLeft135.Rifle_Crouch_StrafeLeft135
+[2019.11.23-20.41.51:626][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_Crouch_StrafeLeft135.Rifle_Crouch_StrafeLeft135) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:627][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Standing_Jump.Standing_Jump
+[2019.11.23-20.41.51:628][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Standing_Jump.Standing_Jump) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:629][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/standing_idle.standing_idle
+[2019.11.23-20.41.51:629][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/standing_idle.standing_idle) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:630][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Standing_1H_Magic_Attack_01.Standing_1H_Magic_Attack_01
+[2019.11.23-20.41.51:630][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Standing_1H_Magic_Attack_01.Standing_1H_Magic_Attack_01) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:631][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/standing_1H_cast_spell_01.standing_1H_cast_spell_01
+[2019.11.23-20.41.51:632][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/standing_1H_cast_spell_01.standing_1H_cast_spell_01) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:633][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/AimOffsets/Aim_U.Aim_U
+[2019.11.23-20.41.51:650][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/AimOffsets/Aim_U.Aim_U) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:651][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/AimOffsets/Aim_RU.Aim_RU
+[2019.11.23-20.41.51:651][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/AimOffsets/Aim_RU.Aim_RU) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:651][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/AimOffsets/Aim_RD.Aim_RD
+[2019.11.23-20.41.51:651][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/AimOffsets/Aim_RD.Aim_RD) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:651][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/AimOffsets/Aim_LU.Aim_LU
+[2019.11.23-20.41.51:651][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/AimOffsets/Aim_LU.Aim_LU) using current/default (AnimCompress_BitwiseCompressOnly_2) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:652][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/AimOffsets/Aim_LD.Aim_LD
+[2019.11.23-20.41.51:652][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/AimOffsets/Aim_LD.Aim_LD) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:652][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/AimOffsets/Aim_L.Aim_L
+[2019.11.23-20.41.51:652][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/AimOffsets/Aim_L.Aim_L) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:652][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/AimOffsets/Aim_D.Aim_D
+[2019.11.23-20.41.51:652][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/AimOffsets/Aim_D.Aim_D) using current/default (AnimCompress_BitwiseCompressOnly_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:653][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_Idle.Rifle_Idle
+[2019.11.23-20.41.51:653][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/InPlace/Rifle_Idle.Rifle_Idle) using current/default (AnimCompress_BitwiseCompressOnly_3) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:657][604]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/AimOffsets/Aim_CC.Aim_CC
+[2019.11.23-20.41.51:657][604]LogAnimationCompression: Recompressing (AnimSequence /Game/Personagens/Animacoes/Rifle/Animations/AimOffsets/Aim_CC.Aim_CC) using current/default (AnimCompress_BitwiseCompressOnly_4) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.11.23-20.41.51:743][604]LogAIModule: Creating AISystem for world BossStage1
+[2019.11.23-20.41.51:798][604]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/BossStage1.BossStage1
+[2019.11.23-20.41.51:836][604]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2019.11.23-20.41.51:840][604]Cmd: MAP LOAD FILE="../../../../../../Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Content/ThirdPersonBP/Maps/BossStage1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.23-20.41.51:840][604]LightingResults: New page: Lighting Build
+[2019.11.23-20.41.51:840][604]LoadErrors: New page: Loading map: BossStage1.umap
+[2019.11.23-20.41.51:841][604]MapCheck: New page: Map Check
+[2019.11.23-20.41.51:842][604]LightingResults: New page: Lighting Build
+[2019.11.23-20.41.51:866][604]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2019.11.23-20.41.51:911][604]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.23-20.41.51:937][604]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2019.11.23-20.41.51:984][604]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.23-20.41.51:984][604]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.127ms to complete.
+[2019.11.23-20.41.51:984][604]LogFileHelpers: Loading map 'BossStage1' took 0.148
+[2019.11.23-20.42.29:191][787]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (PisoDefault)
+[2019.11.23-20.42.29:347][787]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.23-20.42.30:501][901]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2019.11.23-20.42.35:237][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.23-20.42.41:249][962]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2019.11.23-20.42.41:350][962]LogAIModule: Creating AISystem for world labinside
+[2019.11.23-20.42.42:584][ 85]LogAssetEditorManager: Opening Asset editor for World /Game/ThirdPersonBP/Maps/labinside.labinside
+[2019.11.23-20.42.42:605][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2019.11.23-20.42.44:188][ 85]LogSlate: Window 'Save Content' being destroyed
+[2019.11.23-20.42.44:193][ 85]Cmd: MAP LOAD FILE="../../../../../../Users/LabE00/Documents/GitHub/7003E-Saga/FinalProject/Content/ThirdPersonBP/Maps/labinside.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.23-20.42.44:195][ 85]LightingResults: New page: Lighting Build
+[2019.11.23-20.42.44:196][ 85]LoadErrors: New page: Loading map: labinside.umap
+[2019.11.23-20.42.44:200][ 85]MapCheck: New page: Map Check
+[2019.11.23-20.42.44:200][ 85]LightingResults: New page: Lighting Build
+[2019.11.23-20.42.44:226][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2019.11.23-20.42.44:242][ 85]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.23-20.42.44:269][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2019.11.23-20.42.44:320][ 85]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.23-20.42.44:320][ 85]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.111ms to complete.
+[2019.11.23-20.42.44:323][ 85]LogFileHelpers: Loading map 'labinside' took 0.131
+[2019.11.23-20.43.12:215][487]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.23-20.43.13:018][570]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\LabE00\Downloads\labscene.obj)
+[2019.11.23-20.43.13:120][570]LogFbx: Loading FBX Scene from C:\Users\LabE00\Downloads\labscene.obj
+[2019.11.23-20.43.15:776][570]LogFbx: FBX Scene Loaded Succesfully
+[2019.11.23-20.43.17:331][570]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.11.23-20.43.17:526][570]LogMaterial: Display: Missing cached shader map for material LandscapeComponent_45Mat, compiling. 
+[2019.11.23-20.43.18:444][570]LogStaticMesh: Building static mesh labscene...
